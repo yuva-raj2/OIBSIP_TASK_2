@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: black;
+  height: 110vh;
+  min-width: 1200px;
+  min-height: 200px;
+}
+.Nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right:0.5rem;
+}
+.main-page1 h1{
+   min-width:150px; 
+   font-size: 30px;
+   margin-left: 2rem;
+   margin-top: 10rem;
+}
+.main-page1 p{
+  font-size: 18px;
+  margin-left:1.75rem !important;
+}
+.main-page1 a{
+  background-color:chocolate;
+  opacity:0.9;
+  color:white;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 20px;
+  font-weight: bolder;
+  padding: 8px;
+  margin-left: 1rem !important;
+}
+.main-page1 a:hover{
+  background-color: chocolate;
+  opacity:2;
+}
+.Nav{
+  margin-left: 35rem;
+  padding-top: 2rem;
+}
+.main-page{
+  display: flex;
+  flex-direction: row;
+}
+.logo img{
+  width:3rem;
+  margin-left:63rem;
+}
+.github img{
+   margin-top: 8rem;
+}
+.logo img:hover{
+  width: 4rem;
+  margin-left: 63rem;
+  color: aquamarine;
+}
+.linkedin img:hover{
+  width: 4rem;
+}
+.email img:hover{
+  width: 3.5rem;
+}
+.About{
+  background-color: white;
+  color: black;
+  margin-top:15rem;
+  min-width: 1270px;
+  line-height:normal !important;
+}
+.About h1{
+    padding-top: 1rem !important;
+    margin-right:60rem;
+}
+.About p{
+  margin-left: 4.5rem;
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 1rem;
+}
+.Activity{
+  color: black;
+  background-color: white;
+  height: 20rem;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 1rem;
+  margin-right:34rem;
+  min-width: 1270px;
+  font-weight: bold;
+}
+.Activity span{
+  float: left;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.Activity p{
+  font-weight: lighter;
+  text-align: justify;
+  margin-left:5rem !important;
+}
+.Dailyuse{
+  color: black;
+  background-color: white;
+  width: 100%;
+  min-width: 1270px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  padding-left: 70px;
+  margin-top: 10px;
+}
+.image img{
+  width: 20px;
+  padding: 10px;
+  height: 20px;
+}
+.lineview{
+  padding-right: 0.5px;
+  width: 78.86rem;
+  border: 1px solid black;
+}
+.Myprojects{
+  color: black;
+  background-color: white;
+  width: 100%;
+  min-width: 1270px;
+  text-align: justify;
+  padding-bottom:2rem;
+}
+.Myprojects p{
+  margin-left: 4rem;
+}
+.Myprojects span{
+  margin-left: 4rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Contact{
+  background-color: black;
+  padding-top: 2rem;
+  width: 100%;
+  min-width: 1270px;
+  padding-bottom: 1rem;
+  position:absolute;
+}
+.Contactus span{
+  font-size: 24px;
+  text-align: justify !important;
+  text-transform: uppercase;
+  margin-right: 62rem !important;
+}
+.Contactus img{
+  margin-top: 1rem;
+  width:2rem !important;
+}
+.github-img1 img{
+  width: 1.6rem !important;
+  margin-left: 5.5rem;
+}
+.linkedin-img{
+  margin-left: 2rem;
+}
+.email-img1{
+  margin-left: 2rem;
+}
+.contact-link{
+  display: flex;
+  flex-direction:row;
+}
+.Contactus p{
+  text-align: justify;
+  margin-left: 5.5rem;
+  font-size: 18px;
+}
+@media screen and (max-width:377px) {
+  .Nav a{
+    color:blue;
+    text-decoration: none;
+    font-size: 50px;
+    margin-right:1rem;
+  }
+}
